@@ -1,0 +1,35 @@
+body {
+    overflow-y: hidden;
+}
+
+.container {
+
+    width: 50%;
+    margin: auto;
+    border: solid 2px red;
+    margin-bottom: 5px;
+
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+
+}
+
+.column>p {
+    position: relative;
+    left: 25%;
+}
+
+.column>button {
+    position: relative;
+    top: 25%;
+}
+
+button, h1, p {
+    font-size: 3vw;
+}
