@@ -1,58 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="CSS/stylesheet.css" />
+		<link rel="stylesheet" href="CSS/styles.css" />
+        <script src="JS/test.mjs"></script>
+        <script src="JS/dbconnection.mjs"></script>
+	</head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="CSS/stylesheet.css">
-    </head>
-
-    <body>
-        <div class="container">
-            <div class="row">
-                <div class="column">
-                    <h1>Hello world!</h1>
-                </div>
-                <div class="column"><button>Click me!</button></div>
-                <div class="column">
-                    <p>This is <button>a button!</button></p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="column">
-                    <h1>Hello world!</h1>
-                </div>
-                <div class="column"><button>Click me!</button></div>
-                <div class="column">
-                    <p>This is <button>a button!</button></p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="column">
-                    <h1>Hello world!</h1>
-                </div>
-                <div class="column"><button>Click me!</button></div>
-                <div class="column">
-                    <p>This is <button>a button!</button></p>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="column">
-                    <h1>Hello world!</h1>
-                </div>
-                <div class="column"><button>Click me!</button></div>
-                <div class="column">
-                    <p>This is <button>a button!</button></p>
-                </div>
-            </div>
-        </div>
-    </body>
-
+	<body>
+		<div class="background"></div>
+		<div class="card">
+			<h2 class="logo">Welcome!<h2>
+			<h2>Create Account</h2>
+			<form class="form">
+				<input type="text" id="Name" placeholder="Name"/>
+				<input type="password" id="Password" placeholder="Password"/>
+				<button type="submit" id="btn" onclick="Admin.signUpAdmin()">SIGN UP</button>
+			</form>
+			<footer>
+				Existing users, sign in
+				<a href="#">here</a>
+			</footer>
+		</div>
+       
+	</body>
 </html>
